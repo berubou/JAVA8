@@ -1,6 +1,7 @@
 # JAVA8
 [Stream](#stream)
 - [generate 100 random distinct int](#generate-100-random-distinct-int)
+- [Equal difference series](#equal-difference-series)
 
 ## Stream
 ### generate 100 random distinct int
@@ -40,4 +41,11 @@
   //                .forEach(System.out::println);
       }
   }
+  ```
+  ### Equal difference series
+  [back](#java8)
+  ```java
+  Stream.iterate(0, n -> n + 3)
+        .limit(10)
+        . forEach(x -> System.out.print(x + " "));
   ```
