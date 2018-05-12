@@ -4,6 +4,7 @@
 
 ## Stream
 ### generate 100 random distinct int
+[back](#java8)
   ```Java
 
   public class test {
